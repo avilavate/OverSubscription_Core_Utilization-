@@ -3,3 +3,4 @@ C:\Users\admin\NG2\C#\Load_Balanced_by_Cores\Load_Balanced_by_Cores\bin\Debug\Lo
 C:\Users\admin\NG2\C#\Load_Balanced_by_Cores\Load_Balanced_by_Cores\bin\Debug\Load_Balanced_by_Cores.pdb
 C:\Users\admin\NG2\C#\Load_Balanced_by_Cores\Load_Balanced_by_Cores\obj\Debug\Load_Balanced_by_Cores.exe
 C:\Users\admin\NG2\C#\Load_Balanced_by_Cores\Load_Balanced_by_Cores\obj\Debug\Load_Balanced_by_Cores.pdb
+C:\Users\admin\NG2\C#\Load_Balanced_by_Cores\Load_Balanced_by_Cores\obj\Debug\Load_Balanced_by_Cores.csprojResolveAssemblyReference.cache
