@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Load_Balanced_by_Cores
@@ -22,7 +23,7 @@ namespace Load_Balanced_by_Cores
                     {
                         someThingUnused = someThingUnused + new Random(j).Next(10);
                     }
-                    return $"Task completed! {someThingUnused}";
+                    return $"Task completed! {someThingUnused} Thread Id: {Thread.CurrentThread.ManagedThreadId}";
                 }));
             }
             counter = counter - constants.Cores;
@@ -43,7 +44,7 @@ namespace Load_Balanced_by_Cores
                         {
                             someThingUnused = someThingUnused + new Random(j).Next(10);
                         }
-                        return $"Task completed! {someThingUnused}";
+                        return $"Task completed! {someThingUnused} Thread Id: {Thread.CurrentThread.ManagedThreadId}";
                     }));
                 }
             }
